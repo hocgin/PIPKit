@@ -93,7 +93,13 @@ public final class PIPKit {
             return
         }
         
-        let newWindow = PIPKitWindow()
+        guard let windowScene = UIApplication.shared
+                    .connectedScenes
+                    .compactMap({ $0 as? UIWindowScene })
+                    .first(where: { $0.activationState == .foregroundActive })
+        else { return }
+        
+        let newWindow = PIPKitWindow(windowScene: windowScene)
         newWindow.backgroundColor = .clear
         newWindow.rootViewController = viewController
         newWindow.windowLevel = .alert
