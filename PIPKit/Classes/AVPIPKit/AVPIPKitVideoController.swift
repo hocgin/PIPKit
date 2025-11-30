@@ -77,6 +77,19 @@ final class AVPIPKitVideoController: NSObject {
         pipController?.stopPictureInPicture()
     }
     
+    func toggle() {
+        guard let pipController else {
+            start()
+            return
+        }
+        let isActive = pipController.isPictureInPictureActive
+        if isActive {
+            stop()
+        } else {
+            start()
+        }
+    }
+    
     // MARK: - Private
     private func cachedAndPrepareAudioSession() {
         guard AVAudioSession.sharedInstance().category != videoProvider.pipAudioSessionCategory else {

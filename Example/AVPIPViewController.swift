@@ -111,7 +111,10 @@ class AVPIPUIView: UIView, AVPIPUIKitUsable {
                 object: nil,
                 queue: nil
             ) {
-                guard let obj = $0.object as? Bool else { return }
+                guard let obj = $0.object as? Bool else {
+                    self.toggle()
+                    return
+                }
                 if obj {
                     self.start()
                 } else {
@@ -150,6 +153,10 @@ class AVPIPUIView: UIView, AVPIPUIKitUsable {
     func stop() {
         stopPictureInPicture()
     }
+
+    func toggle() {
+        togglePictureInPicture()
+    }
     
     static func startPIP() {
         NotificationCenter.default.post(name: .avPictureInPicture, object: true)
@@ -158,6 +165,11 @@ class AVPIPUIView: UIView, AVPIPUIKitUsable {
     static func stopPIP() {
         NotificationCenter.default
             .post(name: .avPictureInPicture, object: false)
+    }
+    
+    static func togglePIP() {
+        NotificationCenter.default
+            .post(name: .avPictureInPicture, object: nil)
     }
     
     

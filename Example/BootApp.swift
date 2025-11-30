@@ -25,6 +25,11 @@ struct BootApp: App {
                 }
                 .padding()
                 .buttonStyle(.borderedProminent)
+                Button("切换 悬浮时钟") {
+                    AVPIPUIView.togglePIP()
+                }
+                .padding()
+                .buttonStyle(.borderedProminent)
             }
         }
     }

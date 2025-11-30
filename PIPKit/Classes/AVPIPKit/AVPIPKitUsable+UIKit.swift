@@ -50,6 +50,10 @@ public extension AVPIPUIKitUsable where Self: UIViewController {
         videoController?.stop()
     }
     
+    func togglePictureInPicture() {
+        videoController?.toggle()
+    }
+    
     // If you want to update the screen, execute the following additional code.
     func renderPictureInPicture() {
         setupRendererIfNeeded()
@@ -91,6 +95,11 @@ public extension AVPIPUIKitUsable where Self: UIView {
     func startPictureInPicture() {
         setupIfNeeded()
         videoController?.start()
+    }
+    
+    func togglePictureInPicture() {
+        setupIfNeeded()
+        videoController?.toggle()
     }
     
     func stopPictureInPicture() {
