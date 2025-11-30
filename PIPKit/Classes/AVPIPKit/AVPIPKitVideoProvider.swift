@@ -70,6 +70,7 @@ final class PIPVideoProvider {
             .removeDuplicates()
             .map { CGRect(origin: .zero, size: $0) }
             .sink(receiveValue: { [weak self] bounds in
+                debugPrint("bounds = \(bounds)")
                 self?.pipContainerView.frame = bounds
                 self?.bufferDisplayLayer.frame = bounds
             })

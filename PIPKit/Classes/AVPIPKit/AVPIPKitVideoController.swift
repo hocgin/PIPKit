@@ -131,7 +131,10 @@ final class AVPIPKitVideoController: NSObject {
         )
         
         pipController?.requiresLinearPlayback = true
-//        pipController?.setValue(1, forKey: "controlsStyle")
+        pipController?.canStartPictureInPictureAutomaticallyFromInline = true
+        
+        /// TODO: 设置隐藏按钮
+        pipController?.setValue(1, forKey: "controlsStyle")
         
         pipController?.delegate = self
         pipPossibleObservation = pipController?.observe(

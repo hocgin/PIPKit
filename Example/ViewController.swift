@@ -10,6 +10,8 @@ import PIPKit
 
 #if canImport(Combine)
 import Combine
+import SwiftUI
+import AVFAudio
 #endif
 
 class ViewController: UIViewController {
@@ -208,9 +210,13 @@ extension ViewController: AVPIPUIKitUsable {
     var renderPolicy: AVPIPKitRenderPolicy {
         .once
     }
+//    
+//    var ctl:UIView {
+//        UIHostingController(rootView: Text("HI")).view }
     
     var pipTargetView: UIView {
         view
     }
     
 }
+//setCategory(.playback, mode: .moviePlayback)
