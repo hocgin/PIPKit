@@ -107,7 +107,7 @@ final class PIPVideoProvider {
 
 private extension UIImage {
     
-    func cmSampleBuffer(preferredFramesPerSecond: Int) -> CMSampleBuffer? {
+    func cmSampleBufferX(preferredFramesPerSecond: Int) -> CMSampleBuffer? {
         guard let jpegData = jpegData(compressionQuality: 1.0),
               let cgImage = cgImage else {
                   return nil

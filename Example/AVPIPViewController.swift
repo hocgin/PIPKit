@@ -53,7 +53,7 @@ class AVPIPUIView: UIView, AVPIPUIKitUsable {
     override var bounds: CGRect {
         get {
             // 自定义 getter 行为，返回自定义的 bounds
-            return .init(x: 0, y: 0, width: 300, height: 100)
+            return .init(x: 0, y: 0, width: 300, height: 150)
         }
         set {
             // 自定义 setter 行为，设置新的 bounds

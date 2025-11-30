@@ -14,7 +14,7 @@ struct TimeDisplay: View {
                     Text("FPS \(fps)")
                 }
             }
-            Text("\(date.formatted())")
+            Text("\(date.formatted(.dateTime.year().month().day().hour().minute().second().secondFraction(.fractional(3))))")
             HStack {
                 Text("11-30 SUN")
                 Spacer(minLength: .zero)
