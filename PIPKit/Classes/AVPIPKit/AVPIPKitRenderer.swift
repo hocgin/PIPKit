@@ -98,7 +98,7 @@ final class AVPIPUIKitRenderer: AVPIPKitRenderer {
 }
 
 @available(iOS 15.0, *)
-private extension UIView {
+extension UIView {
     
     var uiImage: UIImage {
         UIGraphicsImageRenderer(bounds: bounds).image { context in

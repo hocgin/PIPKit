@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57D0B4882EDC3B5200E83BA7 /* AVPIPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B4872EDC3B5200E83BA7 /* AVPIPViewController.swift */; };
+		57D0B4882EDC3B5200E83BA7 /* AVPIPUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B4872EDC3B5200E83BA7 /* AVPIPUIView.swift */; };
 		57D0B48C2EDC3B6200E83BA7 /* WifiDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B48A2EDC3B6200E83BA7 /* WifiDisplay.swift */; };
 		57D0B48D2EDC3B6200E83BA7 /* TimeDisplayCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B4892EDC3B6200E83BA7 /* TimeDisplayCtl.swift */; };
 		57D0B48E2EDC3B6200E83BA7 /* TimeDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B48B2EDC3B6200E83BA7 /* TimeDisplay.swift */; };
 		57D0B6482EDD570600E83BA7 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6472EDD570200E83BA7 /* UIImage+.swift */; };
+		57D0B6502EDD90EE00E83BA7 /* AVPPIPKitVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B64F2EDD90EE00E83BA7 /* AVPPIPKitVideoController.swift */; };
+		57D0B6532EDD90EE00E83BA7 /* AVPPIPKitVideoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B64E2EDD90EE00E83BA7 /* AVPPIPKitVideoProvider.swift */; };
+		57D0B6572EDDA1E000E83BA7 /* AVPPIPKitUsable+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6562EDDA1E000E83BA7 /* AVPPIPKitUsable+UIKit.swift */; };
+		57D0B6582EDDA1E000E83BA7 /* AVPPIPKitUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6552EDDA1E000E83BA7 /* AVPPIPKitUsable.swift */; };
+		57D0B65A2EDDA29300E83BA7 /* AVPPIPUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6592EDDA29300E83BA7 /* AVPPIPUIView.swift */; };
+		57D0B65D2EDDBEF600E83BA7 /* UIView+Associated+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B65C2EDDBEF600E83BA7 /* UIView+Associated+.swift */; };
+		57D0B65E2EDDBEF600E83BA7 /* UIViewController+Associated+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B65B2EDDBEF600E83BA7 /* UIViewController+Associated+.swift */; };
+		57D0B6602EDDC4FD00E83BA7 /* temp.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57D0B65F2EDDC4FD00E83BA7 /* temp.mov */; };
+		57D0B6622EDDCCED00E83BA7 /* BundleFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6612EDDCCED00E83BA7 /* BundleFinder.swift */; };
+		57D0B6652EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6642EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift */; };
+		57D0B6672EDDE5C000E83BA7 /* TimeVideoComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6662EDDE5C000E83BA7 /* TimeVideoComposition.swift */; };
 		CE21D48128AA8CF900057736 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21D48028AA8CF900057736 /* KeyboardObserver.swift */; };
 		CE96575E2782BB6D00303B7F /* AVPIPKitUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96575D2782BB6D00303B7F /* AVPIPKitUsable.swift */; };
 		CE9657602782BBCC00303B7F /* UIViewController+Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96575F2782BBCC00303B7F /* UIViewController+Associated.swift */; };
@@ -66,11 +77,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		57D0B4872EDC3B5200E83BA7 /* AVPIPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPViewController.swift; sourceTree = "<group>"; };
+		57D0B4872EDC3B5200E83BA7 /* AVPIPUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPUIView.swift; sourceTree = "<group>"; };
 		57D0B4892EDC3B6200E83BA7 /* TimeDisplayCtl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayCtl.swift; sourceTree = "<group>"; };
 		57D0B48A2EDC3B6200E83BA7 /* WifiDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiDisplay.swift; sourceTree = "<group>"; };
 		57D0B48B2EDC3B6200E83BA7 /* TimeDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplay.swift; sourceTree = "<group>"; };
 		57D0B6472EDD570200E83BA7 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		57D0B64E2EDD90EE00E83BA7 /* AVPPIPKitVideoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPPIPKitVideoProvider.swift; sourceTree = "<group>"; };
+		57D0B64F2EDD90EE00E83BA7 /* AVPPIPKitVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPPIPKitVideoController.swift; sourceTree = "<group>"; };
+		57D0B6552EDDA1E000E83BA7 /* AVPPIPKitUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPPIPKitUsable.swift; sourceTree = "<group>"; };
+		57D0B6562EDDA1E000E83BA7 /* AVPPIPKitUsable+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPPIPKitUsable+UIKit.swift"; sourceTree = "<group>"; };
+		57D0B6592EDDA29300E83BA7 /* AVPPIPUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPPIPUIView.swift; sourceTree = "<group>"; };
+		57D0B65B2EDDBEF600E83BA7 /* UIViewController+Associated+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Associated+.swift"; sourceTree = "<group>"; };
+		57D0B65C2EDDBEF600E83BA7 /* UIView+Associated+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Associated+.swift"; sourceTree = "<group>"; };
+		57D0B65F2EDDC4FD00E83BA7 /* temp.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = temp.mov; sourceTree = "<group>"; };
+		57D0B6612EDDCCED00E83BA7 /* BundleFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFinder.swift; sourceTree = "<group>"; };
+		57D0B6642EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVideoCompositionInstruction.swift; sourceTree = "<group>"; };
+		57D0B6662EDDE5C000E83BA7 /* TimeVideoComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVideoComposition.swift; sourceTree = "<group>"; };
 		CE21D48028AA8CF900057736 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		CE96575D2782BB6D00303B7F /* AVPIPKitUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPKitUsable.swift; sourceTree = "<group>"; };
 		CE96575F2782BBCC00303B7F /* UIViewController+Associated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Associated.swift"; sourceTree = "<group>"; };
@@ -113,18 +135,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		57D0B6442EDD56EF00E83BA7 /* Test */ = {
+		57D0B64A2EDD90B500E83BA7 /* AVPPIPKit */ = {
 			isa = PBXGroup;
 			children = (
-				57D0B6472EDD570200E83BA7 /* UIImage+.swift */,
+				57D0B6632EDDD13200E83BA7 /* test */,
+				57D0B65B2EDDBEF600E83BA7 /* UIViewController+Associated+.swift */,
+				57D0B65C2EDDBEF600E83BA7 /* UIView+Associated+.swift */,
+				57D0B6552EDDA1E000E83BA7 /* AVPPIPKitUsable.swift */,
+				57D0B6562EDDA1E000E83BA7 /* AVPPIPKitUsable+UIKit.swift */,
+				57D0B64E2EDD90EE00E83BA7 /* AVPPIPKitVideoProvider.swift */,
+				57D0B64F2EDD90EE00E83BA7 /* AVPPIPKitVideoController.swift */,
 			);
-			path = Test;
+			path = AVPPIPKit;
+			sourceTree = "<group>";
+		};
+		57D0B6632EDDD13200E83BA7 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				57D0B6662EDDE5C000E83BA7 /* TimeVideoComposition.swift */,
+				57D0B6642EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 		CE96575A2782BB3000303B7F /* AVPIPKit */ = {
 			isa = PBXGroup;
 			children = (
-				57D0B6442EDD56EF00E83BA7 /* Test */,
 				CE96575D2782BB6D00303B7F /* AVPIPKitUsable.swift */,
 				CEE5C8E12789A0CE00BEDD03 /* AVPIPKitUsable+UIKit.swift */,
 				CEE5C8DF27899B1500BEDD03 /* AVPIPKitRenderer.swift */,
@@ -151,6 +187,7 @@
 				CEE9973B2782A5F1002FA127 /* UIWindow+Extension.swift */,
 				CE96575F2782BBCC00303B7F /* UIViewController+Associated.swift */,
 				CE9657612782BC3900303B7F /* UIView+Associated.swift */,
+				57D0B6472EDD570200E83BA7 /* UIImage+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -184,6 +221,8 @@
 		CEE997312782A5CC002FA127 /* PIPKit */ = {
 			isa = PBXGroup;
 			children = (
+				57D0B6612EDDCCED00E83BA7 /* BundleFinder.swift */,
+				57D0B65F2EDDC4FD00E83BA7 /* temp.mov */,
 				CEE997392782A5F1002FA127 /* Classes */,
 				CEE997322782A5CC002FA127 /* PIPKit.h */,
 			);
@@ -196,6 +235,7 @@
 				CE96575C2782BB5900303B7F /* Extension */,
 				CE96575B2782BB4E00303B7F /* PIPKit */,
 				CE96575A2782BB3000303B7F /* AVPIPKit */,
+				57D0B64A2EDD90B500E83BA7 /* AVPPIPKit */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -203,10 +243,11 @@
 		CEE997472782A62B002FA127 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				57D0B6592EDDA29300E83BA7 /* AVPPIPUIView.swift */,
 				57D0B4892EDC3B6200E83BA7 /* TimeDisplayCtl.swift */,
 				57D0B48A2EDC3B6200E83BA7 /* WifiDisplay.swift */,
 				57D0B48B2EDC3B6200E83BA7 /* TimeDisplay.swift */,
-				57D0B4872EDC3B5200E83BA7 /* AVPIPViewController.swift */,
+				57D0B4872EDC3B5200E83BA7 /* AVPIPUIView.swift */,
 				CEE997482782A62B002FA127 /* BootApp.swift */,
 				CEE9974C2782A62B002FA127 /* ViewController.swift */,
 				CEE9974E2782A62B002FA127 /* Main.storyboard */,
@@ -311,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D0B6602EDDC4FD00E83BA7 /* temp.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,16 +374,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE9973E2782A5F1002FA127 /* PIPKitEventDispatcher.swift in Sources */,
+				57D0B6672EDDE5C000E83BA7 /* TimeVideoComposition.swift in Sources */,
 				CEE9973F2782A5F1002FA127 /* UIWindow+Extension.swift in Sources */,
 				CEE997402782A5F1002FA127 /* PIPKit.swift in Sources */,
 				57D0B6482EDD570600E83BA7 /* UIImage+.swift in Sources */,
 				CE96575E2782BB6D00303B7F /* AVPIPKitUsable.swift in Sources */,
 				CE9657622782BC3900303B7F /* UIView+Associated.swift in Sources */,
 				CE9657642782BC9100303B7F /* AVPIPKitVideoProvider.swift in Sources */,
+				57D0B6622EDDCCED00E83BA7 /* BundleFinder.swift in Sources */,
 				CE9657662782BCAF00303B7F /* AVPIPKitVideoController.swift in Sources */,
+				57D0B65D2EDDBEF600E83BA7 /* UIView+Associated+.swift in Sources */,
+				57D0B65E2EDDBEF600E83BA7 /* UIViewController+Associated+.swift in Sources */,
+				57D0B6652EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift in Sources */,
 				CE9657602782BBCC00303B7F /* UIViewController+Associated.swift in Sources */,
 				CEE5C8E027899B1500BEDD03 /* AVPIPKitRenderer.swift in Sources */,
+				57D0B6502EDD90EE00E83BA7 /* AVPPIPKitVideoController.swift in Sources */,
+				57D0B6532EDD90EE00E83BA7 /* AVPPIPKitVideoProvider.swift in Sources */,
 				CEE5C8E22789A0CE00BEDD03 /* AVPIPKitUsable+UIKit.swift in Sources */,
+				57D0B6572EDDA1E000E83BA7 /* AVPPIPKitUsable+UIKit.swift in Sources */,
+				57D0B6582EDDA1E000E83BA7 /* AVPPIPKitUsable.swift in Sources */,
 				CE21D48128AA8CF900057736 /* KeyboardObserver.swift in Sources */,
 				CEE997412782A5F1002FA127 /* PIPUsable.swift in Sources */,
 			);
@@ -351,8 +402,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57D0B4882EDC3B5200E83BA7 /* AVPIPViewController.swift in Sources */,
+				57D0B4882EDC3B5200E83BA7 /* AVPIPUIView.swift in Sources */,
 				57D0B48C2EDC3B6200E83BA7 /* WifiDisplay.swift in Sources */,
+				57D0B65A2EDDA29300E83BA7 /* AVPPIPUIView.swift in Sources */,
 				57D0B48D2EDC3B6200E83BA7 /* TimeDisplayCtl.swift in Sources */,
 				57D0B48E2EDC3B6200E83BA7 /* TimeDisplay.swift in Sources */,
 				CEE9974D2782A62B002FA127 /* ViewController.swift in Sources */,
@@ -530,7 +582,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -559,7 +611,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -590,7 +642,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -619,7 +671,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
