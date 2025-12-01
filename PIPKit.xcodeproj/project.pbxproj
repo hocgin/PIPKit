@@ -20,9 +20,9 @@
 		57D0B65D2EDDBEF600E83BA7 /* UIView+Associated+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B65C2EDDBEF600E83BA7 /* UIView+Associated+.swift */; };
 		57D0B65E2EDDBEF600E83BA7 /* UIViewController+Associated+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B65B2EDDBEF600E83BA7 /* UIViewController+Associated+.swift */; };
 		57D0B6602EDDC4FD00E83BA7 /* temp.mov in Resources */ = {isa = PBXBuildFile; fileRef = 57D0B65F2EDDC4FD00E83BA7 /* temp.mov */; };
-		57D0B6622EDDCCED00E83BA7 /* BundleFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6612EDDCCED00E83BA7 /* BundleFinder.swift */; };
 		57D0B6652EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6642EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift */; };
 		57D0B6672EDDE5C000E83BA7 /* TimeVideoComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6662EDDE5C000E83BA7 /* TimeVideoComposition.swift */; };
+		57FA10632EDDF7BC00A945C4 /* BundleFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FA10622EDDF7BC00A945C4 /* BundleFinder.swift */; };
 		CE21D48128AA8CF900057736 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21D48028AA8CF900057736 /* KeyboardObserver.swift */; };
 		CE96575E2782BB6D00303B7F /* AVPIPKitUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96575D2782BB6D00303B7F /* AVPIPKitUsable.swift */; };
 		CE9657602782BBCC00303B7F /* UIViewController+Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96575F2782BBCC00303B7F /* UIViewController+Associated.swift */; };
@@ -90,9 +90,9 @@
 		57D0B65B2EDDBEF600E83BA7 /* UIViewController+Associated+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Associated+.swift"; sourceTree = "<group>"; };
 		57D0B65C2EDDBEF600E83BA7 /* UIView+Associated+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Associated+.swift"; sourceTree = "<group>"; };
 		57D0B65F2EDDC4FD00E83BA7 /* temp.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = temp.mov; sourceTree = "<group>"; };
-		57D0B6612EDDCCED00E83BA7 /* BundleFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFinder.swift; sourceTree = "<group>"; };
 		57D0B6642EDDD13500E83BA7 /* TimeVideoCompositionInstruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVideoCompositionInstruction.swift; sourceTree = "<group>"; };
 		57D0B6662EDDE5C000E83BA7 /* TimeVideoComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeVideoComposition.swift; sourceTree = "<group>"; };
+		57FA10622EDDF7BC00A945C4 /* BundleFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFinder.swift; sourceTree = "<group>"; };
 		CE21D48028AA8CF900057736 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		CE96575D2782BB6D00303B7F /* AVPIPKitUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPKitUsable.swift; sourceTree = "<group>"; };
 		CE96575F2782BBCC00303B7F /* UIViewController+Associated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Associated.swift"; sourceTree = "<group>"; };
@@ -221,8 +221,6 @@
 		CEE997312782A5CC002FA127 /* PIPKit */ = {
 			isa = PBXGroup;
 			children = (
-				57D0B6612EDDCCED00E83BA7 /* BundleFinder.swift */,
-				57D0B65F2EDDC4FD00E83BA7 /* temp.mov */,
 				CEE997392782A5F1002FA127 /* Classes */,
 				CEE997322782A5CC002FA127 /* PIPKit.h */,
 			);
@@ -236,6 +234,8 @@
 				CE96575B2782BB4E00303B7F /* PIPKit */,
 				CE96575A2782BB3000303B7F /* AVPIPKit */,
 				57D0B64A2EDD90B500E83BA7 /* AVPPIPKit */,
+				57FA10622EDDF7BC00A945C4 /* BundleFinder.swift */,
+				57D0B65F2EDDC4FD00E83BA7 /* temp.mov */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -380,8 +380,8 @@
 				57D0B6482EDD570600E83BA7 /* UIImage+.swift in Sources */,
 				CE96575E2782BB6D00303B7F /* AVPIPKitUsable.swift in Sources */,
 				CE9657622782BC3900303B7F /* UIView+Associated.swift in Sources */,
+				57FA10632EDDF7BC00A945C4 /* BundleFinder.swift in Sources */,
 				CE9657642782BC9100303B7F /* AVPIPKitVideoProvider.swift in Sources */,
-				57D0B6622EDDCCED00E83BA7 /* BundleFinder.swift in Sources */,
 				CE9657662782BCAF00303B7F /* AVPIPKitVideoController.swift in Sources */,
 				57D0B65D2EDDBEF600E83BA7 /* UIView+Associated+.swift in Sources */,
 				57D0B65E2EDDBEF600E83BA7 /* UIViewController+Associated+.swift in Sources */,
