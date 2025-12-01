@@ -11,7 +11,7 @@
 		57D0B48C2EDC3B6200E83BA7 /* WifiDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B48A2EDC3B6200E83BA7 /* WifiDisplay.swift */; };
 		57D0B48D2EDC3B6200E83BA7 /* TimeDisplayCtl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B4892EDC3B6200E83BA7 /* TimeDisplayCtl.swift */; };
 		57D0B48E2EDC3B6200E83BA7 /* TimeDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B48B2EDC3B6200E83BA7 /* TimeDisplay.swift */; };
-		57D0B6482EDD570600E83BA7 /* Test+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6472EDD570200E83BA7 /* Test+.swift */; };
+		57D0B6482EDD570600E83BA7 /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0B6472EDD570200E83BA7 /* UIImage+.swift */; };
 		CE21D48128AA8CF900057736 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE21D48028AA8CF900057736 /* KeyboardObserver.swift */; };
 		CE96575E2782BB6D00303B7F /* AVPIPKitUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96575D2782BB6D00303B7F /* AVPIPKitUsable.swift */; };
 		CE9657602782BBCC00303B7F /* UIViewController+Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE96575F2782BBCC00303B7F /* UIViewController+Associated.swift */; };
@@ -70,7 +70,7 @@
 		57D0B4892EDC3B6200E83BA7 /* TimeDisplayCtl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplayCtl.swift; sourceTree = "<group>"; };
 		57D0B48A2EDC3B6200E83BA7 /* WifiDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiDisplay.swift; sourceTree = "<group>"; };
 		57D0B48B2EDC3B6200E83BA7 /* TimeDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDisplay.swift; sourceTree = "<group>"; };
-		57D0B6472EDD570200E83BA7 /* Test+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test+.swift"; sourceTree = "<group>"; };
+		57D0B6472EDD570200E83BA7 /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
 		CE21D48028AA8CF900057736 /* KeyboardObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
 		CE96575D2782BB6D00303B7F /* AVPIPKitUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPIPKitUsable.swift; sourceTree = "<group>"; };
 		CE96575F2782BBCC00303B7F /* UIViewController+Associated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Associated.swift"; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		57D0B6442EDD56EF00E83BA7 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				57D0B6472EDD570200E83BA7 /* Test+.swift */,
+				57D0B6472EDD570200E83BA7 /* UIImage+.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 				CEE9973E2782A5F1002FA127 /* PIPKitEventDispatcher.swift in Sources */,
 				CEE9973F2782A5F1002FA127 /* UIWindow+Extension.swift in Sources */,
 				CEE997402782A5F1002FA127 /* PIPKit.swift in Sources */,
-				57D0B6482EDD570600E83BA7 /* Test+.swift in Sources */,
+				57D0B6482EDD570600E83BA7 /* UIImage+.swift in Sources */,
 				CE96575E2782BB6D00303B7F /* AVPIPKitUsable.swift in Sources */,
 				CE9657622782BC3900303B7F /* UIView+Associated.swift in Sources */,
 				CE9657642782BC9100303B7F /* AVPIPKitVideoProvider.swift in Sources */,

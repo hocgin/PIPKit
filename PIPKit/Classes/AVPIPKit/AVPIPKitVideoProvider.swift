@@ -77,8 +77,18 @@ final class PIPVideoProvider {
             .store(in: &cancellables)
         
         renderPublisher
-            .map { $0.cmSampleBuffer(preferredFramesPerSecond: preferredFramesPerSecond) }
+            .map {
+//                debugPrint("--> render 1")
+                return  $0
+                    .cmSampleBuffer(
+                        preferredFramesPerSecond: preferredFramesPerSecond
+                    )
+            }
             .filter { $0 != nil }
+            .map {
+//                debugPrint("--> render 2")
+                return $0
+            }
             .map { $0.unsafelyUnwrapped }
             .sink(receiveValue: { [weak self] buffer in
                 if self?.bufferDisplayLayer.status == .failed {

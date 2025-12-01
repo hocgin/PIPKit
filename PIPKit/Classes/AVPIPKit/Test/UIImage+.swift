@@ -6,7 +6,6 @@ extension UIImage {
     
     func cmSampleBuffer(
         preferredFramesPerSecond: Int,
-        frameIndex: Int = 0,
         pixelBufferOptions: [String: Any]? = nil
     ) -> CMSampleBuffer? {
         guard let cgImage = self.cgImage else { return nil }
@@ -71,10 +70,8 @@ extension UIImage {
         
         // 4. 时间信息
         let duration = CMTime(value: 1, timescale: Int32(preferredFramesPerSecond))
-        let presentationTimeStamp = CMTimeMultiply(
-            duration,
-            multiplier: Int32(frameIndex)
-        )
+        
+        let presentationTimeStamp = CMTime(seconds: CACurrentMediaTime(), preferredTimescale: CMTimeScale(preferredFramesPerSecond))
         let decodeTimeStamp = CMTime.invalid
         
         var timing = CMSampleTimingInfo(
