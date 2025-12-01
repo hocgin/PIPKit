@@ -43,7 +43,7 @@ final class PPIPVideoProvider: NSObject {
     init(renderer: AVPIPKitRenderer, audioSessionCategory: AVAudioSession.Category) {
         self.renderer = renderer
         self.pipAudioSessionCategory = audioSessionCategory
-        let url = Bundle.module.url(forResource: "temp", withExtension: "mov")!
+        let url = Bundle.module2.url(forResource: "temp", withExtension: "mov")!
         self.asset = AVAsset(url: url)
         
         self.item = AVPlayerItem(asset: asset)
